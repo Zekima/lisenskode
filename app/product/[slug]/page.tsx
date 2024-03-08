@@ -29,12 +29,12 @@ export default function Page({ params }: { params: { slug: string } }) {
     return (
         <div className="max-w-[1280px] flex flex-col bg-white w-full p-9 rounded-md">
             <Link href="/">← Gå Tilbake</Link>
-            <h1 className="text-xl text-center font-medium mt-3">{product.title}</h1>
+            <h1 className="text-xl text-center font-medium mt-4">{product.title}</h1>
 
             <div className="flex gap-2 sm:flex-row flex-col">
                 <div>
 
-                    <div className="bg-white m-10 relative h-[320px] w-[300px] select-none">
+                    <div className="bg-white ml-0 mr-3 my-6 relative h-[320px] w-[300px] select-none">
                         <Image
                             src={product.image}
                             priority
