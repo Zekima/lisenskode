@@ -7,17 +7,17 @@ export default function Page({ params }: { params: { slug: string } }) {
     const products = [
         {
             title: "Windows 11 Pro Retail",
-            image: "/wind11.avif",
+            image: "/winpro11.avif",
             price: 349
         },
         {
             title: "Windows 11 Home Retail",
-            image: "/wind11h.avif",
+            image: "/winhome11.avif",
             price: 275
         },
         {
             title: "Office 2021 Professional Plus",
-            image: "/off2021.jpg",
+            image: "/off2021.avif",
             price: 450
         }
     ]
