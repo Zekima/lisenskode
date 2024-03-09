@@ -48,7 +48,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                     <p className="text-3xl mb-3 font-medium">{product.price} kr</p>
                     <label htmlFor="emailInput">Email (for levering)</label>
                     <input type="text" className="p-3 border border-black my-3 rounded-md" id="emailInput" />
-                    <button className="bg-blue-600 hover:bg-blue-700 py-4 px-10 text-white font-medium rounded-md">Kjøp Nå</button>
+                    <button className="bg-blue-600 hover:bg-blue-700 py-3.5 px-10 text-white font-medium rounded-md">Kjøp Nå</button>
                 </div>
 
             </div>
